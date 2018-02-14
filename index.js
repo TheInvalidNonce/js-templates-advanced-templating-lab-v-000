@@ -48,10 +48,7 @@ function displayEditForm() {
       ingredients.push(ingredientsList[i].innerText)
   }
   
-  let recipe = {
-    'name' : name,
-    'description' : description,
-    'ingredients' : ingredients,
+  let recipe = {name, description,ingredients,
     'submitAction' : 'updateRecipe()'
   }
   
